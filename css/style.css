@@ -1,0 +1,49 @@
+.container-fluid{
+color:red;
+background: rgb(204, 204, 204);
+}
+.centered{
+    text-align: center;
+}
+
+.img-cart{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-select{
+    
+    width: 64px; 
+    margin-right: 5%;
+    gap: 5%;
+}
+
+.img-comment{
+    height: 83px;
+    width: 83px;
+    
+}
+
+.item-card{
+    width: 12rem;
+}
+.button-card{
+    background-image: url(/img/Frame_39524.png);
+    /* border: 5px solid #284351; */
+    /* border-radius: background: rgb(204, 204, 204);20px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #dd9ea9;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.0);
+    height: 219px;     
+    width: 327px;    
+
+}
+.star-5{
+    width: 50%;
+}
+
+.star-txt{
+    white-space: nowrap;
+}
