@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\style.css">
-    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <title>Card</title>
 
 </head>
 
 <body>
-    <div nav-wrap>
+    <!-- <div nav-wrap>
         <div class="container-fluid">
             <div class="row">
                 <nav role="navigation" class="navbar navbar-inverse">
@@ -27,23 +27,32 @@
                 </nav>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="card-wrap">
 
         <div class="container">
 
             <div class="row ">
-                <div class="col-4">REIKANEN P0339, 63.11299001409</div>
-                <div class="col-6"></div>
-                <div class="col-1">Сравнить</div>
-                <div class="col-1">Поделиться</div>
+                <div class="col-4 title-txt">REIKANEN P0339, 63.11299001409</div>
+                <!-- <div class="col-4"></div> -->
+                <div class="col-4 d-flex flex-row  justify-content-end nav-txt">
+                    <div class="d-flex flex-row mx-2">
+                        <span class="mx-2">Сравнить</span>
+                        <span> <img src="icon\vuesax_outline_people.png" class="img-fluid" alt=""></span>
+                    </div>
+                    <div class="d-flex flex-row ">
+                        <span class="mx-2">Поделиться</span>
+                        <span> <img src="icon\export.png" class="img-fluid nav-txt" alt=""></span>
+                    </div>
+
+                </div>
             </div>
 
             <div class="row">
                 <div class="col-4" class="img-cart">
-                    <div class="img-cart centered">
-                        <div class="d-flex flex-column img-select">
+                    <div class="d-flex flex-row centered  good">
+                        <div class="d-flex flex-column justify-content-center img-select">
                             <img src="icon\Frame 39767.png" class="img-fluid" alt="">
                             <img src="img\img_1.png" class="img-fluid" alt="">
                             <img src="img\img_4.png" class="img-fluid" alt="">
@@ -54,42 +63,52 @@
                         </div>
 
                         <div class="img-general">
+
                             <img src="img\img_2.png" class="img-fluid" alt="">
+                            <img src="icon\Frame 39749.png" class="img-fluid img-h" alt="">
                         </div>
                     </div>
                     <div>
-                        <div>Продавец</div>
-                        <div>
-                            <div>Магазин или продавец</div>
-                        </div>
-                        <div>
-                            <div>
-                                <span></span>
-                                <span>4.9 Рейтинг продавца</span>
+                        <div class="mt-15 title-txt mat mab">Продавец</div>
+                        <div class="good">
+                            <div class="d-flex flex-row align-items-center mab">
+                                <div class="mar"><img src="icon\shop-icon.png" class="img-fluid" alt=""></div>
+                                <div class="d-flex flex-column mar">
+                                    <div class="shop-txt">Магазин или продавец</div>
+                                    <div><img src="icon\shop-provider.png" class="img-fluid" alt=""></div>
+                                </div>
+                                <div><img src="icon\write-shop.png" class="img-fluid" alt=""></div>
                             </div>
-                            <div>
-                                <span></span>
-                                <span>Цены что надо </span>
-                            </div>
-                            <div>
-                                <span></span>
-                                <span>98% вовремя. Доставка серивсами Exzap, SDEK. </span>
-                            </div>
+                            <div class="shop-item-txt mab">
+                                <div class="mab">
+                                    <span class="mar"><img src="icon\star_1.png" class="img-fluid" alt=""></span>
+                                    <span>4.9 Рейтинг продавца</span>
+                                </div>
+                                <div class="mab">
+                                    <span class="mar"><img src="icon\like.png" class="img-fluid" alt=""></span>
+                                    <span>Цены что надо </span>
+                                </div>
+                                <div class="mab">
+                                    <span class="mar"><img src="icon\routing.png" class="img-fluid" alt=""></span>
+                                    <span>98% вовремя. Доставка серивсами Exzap, SDEK. </span>
+                                </div>
 
-                            <div>
-                                <span></span>
-                                <span>Проверенный поставщик</span>
-                            </div>
-                            <div>
-                                <span></span>
-                                <span>Безопасная оплата</span>
-                            </div>
-                            <div>
-                                <span></span>
-                                <span>Возврат 7 дней</span>
+                                <div class="mab">
+                                    <span class="mar"><img src="icon\vuesax_outline_shield.png" class="img-fluid"
+                                            alt=""></span>
+                                    <span>Проверенный поставщик</span>
+                                </div>
+                                <div class="mab">
+                                    <span class="mar"><img src="icon\security-card.png" class="img-fluid" alt=""></span>
+                                    <span>Безопасная оплата</span>
+                                </div>
+                                <div>
+                                    <span class="mar"><img src="icon\empty-wallet-change.png" class="img-fluid"
+                                            alt=""></span>
+                                    <span>Возврат 7 дней</span>
+                                </div>
                             </div>
                         </div>
-
 
                     </div>
                 </div>
@@ -97,102 +116,124 @@
                 <div class="col-8 ">
                     <div class="d-flex flex-column">
                         <div class="d-flex flex-row">
-                            <div class="d-flex flex-column">
-                                <div>Насос ГУР Оригинал IXETIC \LUK восст.BMW X1 [E84] 20 [гар 1 год] P0339 </div>
-                                <div>
-                                    <div>
+                            <div class="d-flex flex-column mar_50 mar">
+                                <div class="good-title fw-bold mab">Насос ГУР Оригинал IXETIC \LUK восст.BMW X1 [E84] 20
+                                    [гар 1 год] P0339 </div>
+                                <div class="shop-item-txt good">
+                                    <div class="mab">
                                         <span><img src="icon\star.png" class="arrow-up-right" alt=""></span>
-                                        <span>4,9</span>
+                                        <span class="fw-bold">4,9</span>
                                         <span>• 151 отзыв</span>
                                         <span><img src="icon\arrow.up.right.png" class="arrow-up-right" alt=""></span>
                                     </div>
-                                    <div>
+                                    <div class="mab">
                                         <span><img src="icon\message-question.png" class="arrow-up-right" alt=""></span>
                                         <span></span>101 вопрос о товаре</span>
                                         <span><img src="icon\arrow.up.right.png" class="arrow-up-right" alt=""></span>
                                     </div>
-                                    <div>
+                                    <div class="mab">
                                         <span><img src="icon\shield-tick.png" class="arrow-up-right" alt=""></span>
                                         <span>Оригинальная запчасть</span>
                                         <span><img src="icon\arrow.up.right.png" class="arrow-up-right" alt=""></span>
                                     </div>
                                 </div>
-                                <div>
-                                    <span>Товар</span>
+                                <div class="d-flex flex-row mat mab">
+                                    <div class="fw-bold">Товар</div>
+                                    <div class="mal">
                                     <span>Перейти к характеристикам </span>
                                     <span><img src="icon\arrow.up.right.png" class="arrow-up-right" alt=""></span>
                                 </div>
-                                <div class="good-">
-                                    <div>
+                                </div>
+                                <div class="shop-item-txt good">
+                                    <div class="mab">
                                         <span>Артикул<span>
-                                                <span>000 000 00 00</span>
+                                                <span class="fw-bold">000 000 00 00</span>
                                     </div>
-                                    <div>
+                                    <div class="mab">
                                         <span>Номер<span>
-                                                <span>11299001409</span>
+                                                <span class="fw-bold">11299001409</span>
                                     </div>
-                                    <div>
+                                    <div class="mab">
                                         <span>Производитель<span>
-                                                <span>REIKANEN</span>
+                                                <span class="fw-bold">REIKANEN</span>
                                     </div>
-                                    <div>
+                                    <div class="mab">
                                         <span>Страна<span>
-                                                <span>Китай</span>
+                                                <span class="fw-bold">Китай</span>
                                     </div>
-                                    <div>
+                                    <div class="mab">
                                         <div>Аналоги</div>
-                                        <div>11299001409 63.11299001409 P0339</div>
+                                        <div class="fw-bold">11299001409 63.11299001409 P0339</div>
                                     </div>
-                                    <div>
+                                    <div class="mab">
                                         <div>Подходит для автомобилей</div>
-                                        <div>BMW X1 xDrive N20B20, GAZel NEXT</div>
+                                        <div class="fw-bold">BMW X1 xDrive N20B20, GAZel NEXT</div>
                                     </div>
 
                                 </div>
                             </div>
 
-                            <div class="d-flex flex-column ">
-                                <div>
-                                    <span>ХХХ ХХХ.ХХ Х </span>
-                                    <span>ХХХ ХХХ ХХХ.ХХ </span>
-                                </div>
-                                <div>
-                                    <span>Рассрочка </span>
-                                    <span>от ХХХ ХХХ.ХХ х/мес</span>
-                                    <span> </span>
-                                </div>
+                            <div class="d-flex flex-column shop-item-txt ">
+                                <div class="good">
+                                    <div class="mab">
+                                        <span class="fw-bold good-title">ХХХ ХХХ.ХХ Х </span>
+                                        <span class="text-decoration-line-through">ХХХ ХХХ ХХХ.ХХ </span>
+                                    </div>
+                                    <div class="credit-gen mab">
+                                        <span class="cr">Рассрочка </span>
+                                        <span class="fw-bold credit">от ХХХ ХХХ.ХХ х/мес</span>
+                                        <span class="credit-icon"><img src="icon\arrow.right.png"> </span>
+                                    </div>
 
-                                <div>
-                                    <span> В корзину</span>
-                                    <span> </span>
-                                </div>
-                                <div>
-                                    <span><img src="icon\truck.png" class="img-fluid " alt=""></span>
-                                    <span>Доставим под заказ из-за рубежа</span>
-                                    <span>16.09.2024 - 20.09.2024</span>
-                                </div>
-                                <div>
-                                    <span><img src="icon\3d-cube-scan.png" class="img-fluid " alt=""></span>
-                                    <span>Осталось 3 штуки</span>
-
-                                </div>
-                                <div>
-                                    <span><img src="icon\vuesax_outline_people.png" class="img-fluid" alt=""></span>
-                                    <span>161 человек купил на этой неделе</span>
-
-                                </div>
-
-
-                                <div class="d-flex flex-column ">
-                                    <div>Доставка</div>
-                                    <div class="d-flex flex-raw ">
-                                        <div><img src="icon\location.png" class="img-fluid" alt=""></div>
-                                        <div class="d-flex flex-column ">
-                                            <div>Узбекистан, Ташкент</div>
-                                            <div>Со склада из-за рубежа</div>
-
-
+                                    <div class="d-flex flex-raw mab">
+                                        <div class="buy-one">
+                                            <span> Купить в один клик</span>
+                                            <span> <img src="icon\clock.png"></span>
                                         </div>
+                                        <div class="cart">
+                                            <span> В корзину</span>
+                                            <span><img src="icon\cart.badge.plus.png"></span>
+                                        </div>
+                                    </div>
+                                    <div class="mab">
+                                        <span><img src="icon\truck.png" class="img-fluid " alt=""></span>
+                                        <span>Доставим </span>
+                                        <span>16.09.2024</span>
+                                    </div>
+                                    <div class="mab">
+                                        <span><img src="icon\3d-cube-scan.png" class="img-fluid " alt=""></span>
+                                        <span>Осталось 3 штуки</span>
+
+                                    </div>
+                                    <div class="mab">
+                                        <span><img src="icon\vuesax_outline_people.png" class="img-fluid" alt=""></span>
+                                        <span>161 человек купил на этой неделе</span>
+
+                                    </div>
+                                </div>
+
+                                <div class="good-go">
+                                    <div class="fw-bold mab">Доставка</div>
+                                    <div class="d-flex flex-column good">
+                                        <div class="d-flex flex-raw  mab">
+                                            <div class="mar"><img src="icon\location.png" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="d-flex flex-column align-content-center">
+                                                <div class="fw-bold">Узбекистан, Ташкент</div>
+                                                <div class="m">Со склада Exzap, Ташкент</div>
+                                            </div>
+                                        </div>
+                                        <div class="mab">
+                                            <span class="no-money">Бесплатно</span>
+                                            <span>курьером</span>
+                                            <span class="fw-light">16.09.2024</span>
+                                        </div>
+                                        <div>
+                                            <span class="no-money">Бесплатно</span>
+                                            <span>в пункт выдачи </span>
+                                            <span class="fw-light">17.09.2024</span>
+                                        </div>
+
                                     </div>
 
                                 </div>
@@ -431,194 +472,198 @@
 
 
         <div class="about">
-            <div>Все отзывы и вопросы о товаре</div>
-            <div class="d-flex flex-raw ">
-                <div class="reviews">
-                    <div class="container ">
+            <div class="container">
+                <div>Все отзывы и вопросы о товаре</div>
+                <div class="d-flex flex-raw ">
+                    <div class="reviews">
+                        <div class="container ">
 
-                        <div class="raw">
+                            <div class="raw">
+                                <div class="d-flex flex-raw ">
+                                    <div>
+                                        <ul class="nav">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="#">Все отзывы</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Отзывы об этом варианте</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Вопросы о товаре</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <span class="btn"> <img src="icon\Frame 39719.png" class="img-fluid"
+                                                alt=""></span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="reviews-1">
+                                <div class="raw">
+                                    <div class="d-flex flex-raw ">
+                                        <div><img src="icon\shop.png" class="img-fluid" alt=""></div>
+                                        <div>Иванов Иван Иванович</div>
+
+                                        <div>20 ноя 2024</div>
+                                        <div><img src="icon\Frame 39776.png" class="img-fluid img-comment" alt=""></div>
+                                    </div>
+                                </div>
+
+                                <div class="raw">
+                                    <div class="d-flex flex-column">
+                                        <div><span> Модификация товара:</span> <span> правый</span></div>
+                                        <div><span>Качество: </span> <span>отличное</span></div>
+                                        <div><span> Какой то параметр: </span> <span>значение</span></div>
+                                    </div>
+
+                                </div>
+                                <div class="raw">
+                                    <p>Долго думала нужен ли мне такой совсем не бюджетный.
+                                        И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
+                                        И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
+                                        И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
+                                        И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
+                                        И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
+                                        И все же решилась купить. </p>
+
+                                </div>
+
+                                <div class="raw">
+                                    <div class="d-flex flex-raw">
+                                        <div class="col-10"><img src="img\Group 39682.png" class="img-fluid img-comment"
+                                                alt="">
+                                        </div>
+                                        <div><img src="img\Group 39682.png" class="img-fluid img-comment" alt=""></div>
+
+                                    </div>
+                                </div>
+
+                                <div class="raw">
+                                    <div class="d-flex flex-raw">
+                                        <div>Помог этот отзыв?</div>
+                                        <div>Да</div>
+                                        <div>Нет</div>
+                                        <div>
+                                            <span>2 комментария</span>
+                                            <span><img src="icon\arrow.down.png" class="img-fluid img-icon"
+                                                    alt=""></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="reviews-2">
+                                <div class="raw">
+                                    <div class="d-flex flex-raw ">
+                                        <div><img src="icon\shop.png" class="img-fluid" alt=""></div>
+                                        <div>Иванов Иван Иванович</div>
+
+                                        <div>20 ноя 2024</div>
+                                        <div><img src="icon\Frame 39776.png" class="img-fluid img-comment" alt=""></div>
+                                    </div>
+                                </div>
+
+                                <div class="raw">
+                                    <div class="d-flex flex-column">
+                                        <div><span> Модификация товара:</span> <span> правый</span></div>
+                                        <div><span>Качество: </span> <span>отличное</span></div>
+                                        <div><span> Какой то параметр: </span> <span>значение</span></div>
+                                    </div>
+
+                                </div>
+                                <div class="raw">
+                                    <p>Долго думала нужен ли мне такой совсем не бюджетный.
+                                        И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
+                                        И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
+                                        И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
+                                        И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
+                                        И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
+                                        И все же решилась купить. </p>
+
+                                </div>
+
+                                <div class="raw">
+                                    <div class="d-flex flex-raw">
+                                        <div><img src="img\Group 39682.png" class="img-fluid img-comment" alt=""></div>
+                                        <div><img src="img\Group 39682.png" class="img-fluid img-comment" alt=""></div>
+                                        <div><img src="img\Group 39682.png" class="img-fluid img-comment" alt=""></div>
+                                        <div><img src="img\Group 39682.png" class="img-fluid img-comment" alt=""></div>
+                                    </div>
+                                </div>
+
+                                <div class="raw">
+                                    <div class="d-flex flex-raw">
+                                        <div>Помог этот отзыв?</div>
+                                        <div>Да</div>
+                                        <div>Нет</div>
+                                        <div>
+                                            <span>2 комментария</span>
+                                            <span><img src="icon\arrow.up.png" class="img-fluid img-icon" alt=""></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="reviews-3">
+                                <div class="raw">
+                                    <div class="d-flex flex-raw ">
+                                        <div><img src="icon\shop.png" class="img-fluid" alt=""></div>
+                                        <div>Иванов Иван Иванович</div>
+
+                                        <div>20 ноя 2024</div>
+                                        <div><img src="icon\Frame 39776.png" class="img-fluid img-comment" alt=""></div>
+                                    </div>
+                                </div>
+                                <div class="raw">
+                                    <div>
+                                        <p>Текст комментария.</p>
+                                    </div>
+                                </div>
+                                <div class="raw">
+                                    <div class="d-flex flex-raw ">
+                                        <div><img src="icon\Frame 39613.png" class="img-fluid" alt=""></div>
+                                        <div><img src="icon\Frame 39614.png" class="img-fluid" alt=""></div>
+                                        <div><img src="icon\vuesax_outline_more.png" class="img-fluid" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="grades">
+                        <div class="d-flex flex-column ">
+
                             <div class="d-flex flex-raw ">
-                                <div>
-                                    <ul class="nav">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#">Все отзывы</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Отзывы об этом варианте</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Вопросы о товаре</a>
-                                        </li>
-
-                                    </ul>
-                                </div>
-
-                                <div>
-                                    <span class="btn"> <img src="icon\Frame 39719.png" class="img-fluid" alt=""></span>
-
-                                </div>
-
+                                <div class="star-txt">4.9 из 5</div>
+                                <div><img src="icon\Frame 39776_1.png" class="img-fluid star-5" alt=""></div>
                             </div>
+                            <div>Рейтинг формируется на основе актуальных отзывов</div>
 
-                        </div>
-
-                        <div class="reviews-1">
-                            <div class="raw">
-                                <div class="d-flex flex-raw ">
-                                    <div><img src="icon\shop.png" class="img-fluid" alt=""></div>
-                                    <div>Иванов Иван Иванович</div>
-
-                                    <div>20 ноя 2024</div>
-                                    <div><img src="icon\Frame 39776.png" class="img-fluid img-comment" alt=""></div>
-                                </div>
+                            <div><img src="icon\Frame 39790.png" class="img-fluid star-5" alt=""></div>
+                            <div>Отзывы могут оставить только реальные покупатели. Так мы формируем честный рейтинг.
                             </div>
-
-                            <div class="raw">
-                                <div class="d-flex flex-column">
-                                    <div><span> Модификация товара:</span> <span> правый</span></div>
-                                    <div><span>Качество: </span> <span>отличное</span></div>
-                                    <div><span> Какой то параметр: </span> <span>значение</span></div>
-                                </div>
-
+                            <div class="d-flex flex-raw ">
+                                <div> Оставить отзыв</div>
+                                <div><img src="icon\arrow.right.png" class="img-fluid star-5" alt=""></div>
                             </div>
-                            <div class="raw">
-                                <p>Долго думала нужен ли мне такой совсем не бюджетный.
-                                    И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
-                                    И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
-                                    И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
-                                    И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
-                                    И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
-                                    И все же решилась купить. </p>
-
-                            </div>
-
-                            <div class="raw">
-                                <div class="d-flex flex-raw">
-                                    <div class="col-10"><img src="img\Group 39682.png" class="img-fluid img-comment"
-                                            alt="">
-                                    </div>
-                                    <div><img src="img\Group 39682.png" class="img-fluid img-comment" alt=""></div>
-
-                                </div>
-                            </div>
-
-                            <div class="raw">
-                                <div class="d-flex flex-raw">
-                                    <div>Помог этот отзыв?</div>
-                                    <div>Да</div>
-                                    <div>Нет</div>
-                                    <div>
-                                        <span>2 комментария</span>
-                                        <span><img src="icon\arrow.down.png" class="img-fluid img-icon" alt=""></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="reviews-2">
-                            <div class="raw">
-                                <div class="d-flex flex-raw ">
-                                    <div><img src="icon\shop.png" class="img-fluid" alt=""></div>
-                                    <div>Иванов Иван Иванович</div>
-
-                                    <div>20 ноя 2024</div>
-                                    <div><img src="icon\Frame 39776.png" class="img-fluid img-comment" alt=""></div>
-                                </div>
-                            </div>
-
-                            <div class="raw">
-                                <div class="d-flex flex-column">
-                                    <div><span> Модификация товара:</span> <span> правый</span></div>
-                                    <div><span>Качество: </span> <span>отличное</span></div>
-                                    <div><span> Какой то параметр: </span> <span>значение</span></div>
-                                </div>
-
-                            </div>
-                            <div class="raw">
-                                <p>Долго думала нужен ли мне такой совсем не бюджетный.
-                                    И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
-                                    И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
-                                    И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
-                                    И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
-                                    И все же решилась купить. Долго думала нужен ли мне такой совсем не бюджетный.
-                                    И все же решилась купить. </p>
-
-                            </div>
-
-                            <div class="raw">
-                                <div class="d-flex flex-raw">
-                                    <div><img src="img\Group 39682.png" class="img-fluid img-comment" alt=""></div>
-                                    <div><img src="img\Group 39682.png" class="img-fluid img-comment" alt=""></div>
-                                    <div><img src="img\Group 39682.png" class="img-fluid img-comment" alt=""></div>
-                                    <div><img src="img\Group 39682.png" class="img-fluid img-comment" alt=""></div>
-                                </div>
-                            </div>
-
-                            <div class="raw">
-                                <div class="d-flex flex-raw">
-                                    <div>Помог этот отзыв?</div>
-                                    <div>Да</div>
-                                    <div>Нет</div>
-                                    <div>
-                                        <span>2 комментария</span>
-                                        <span><img src="icon\arrow.up.png" class="img-fluid img-icon" alt=""></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="reviews-3">
-                            <div class="raw">
-                                <div class="d-flex flex-raw ">
-                                    <div><img src="icon\shop.png" class="img-fluid" alt=""></div>
-                                    <div>Иванов Иван Иванович</div>
-
-                                    <div>20 ноя 2024</div>
-                                    <div><img src="icon\Frame 39776.png" class="img-fluid img-comment" alt=""></div>
-                                </div>
-                            </div>
-                            <div class="raw">
-                                <div>
-                                    <p>Текст комментария.</p>
-                                </div>
-                            </div>
-                            <div class="raw">
-                                <div class="d-flex flex-raw ">
-                                    <div><img src="icon\Frame 39613.png" class="img-fluid" alt=""></div>
-                                    <div><img src="icon\Frame 39614.png" class="img-fluid" alt=""></div>
-                                    <div><img src="icon\vuesax_outline_more.png" class="img-fluid" alt=""></div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-
-                <div class="grades">
-                    <div class="d-flex flex-column ">
-
-                        <div class="d-flex flex-raw ">
-                            <div class="star-txt">4.9 из 5</div>
-                            <div><img src="icon\Frame 39776_1.png" class="img-fluid star-5" alt=""></div>
-                        </div>
-                        <div>Рейтинг формируется на основе актуальных отзывов</div>
-
-                        <div><img src="icon\Frame 39790.png" class="img-fluid star-5" alt=""></div>
-                        <div>Отзывы могут оставить только реальные покупатели. Так мы формируем честный рейтинг.</div>
-                        <div class="d-flex flex-raw ">
-                            <div> Оставить отзыв</div>
-                            <div><img src="icon\arrow.right.png" class="img-fluid star-5" alt=""></div>
                         </div>
                     </div>
+
+
+
                 </div>
-
-
-
             </div>
-
 
         </div>
 

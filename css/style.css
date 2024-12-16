@@ -1,3 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    body {
+        background-image: url(/img/31903913_hj3.png);
+        /* font-family: Roboto; */
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+        src: url('/fonts/Roboto-Regular.ttf') format("truetype");   
+    } 
+    
+
 .container-fluid{
 color:red;
 background: rgb(204, 204, 204);
@@ -6,16 +19,106 @@ background: rgb(204, 204, 204);
     text-align: center;
 }
 
-.img-cart{
-    display: flex;
-    flex-direction: row;
+.mar{
+    margin-right: 2%;
 }
+.mab{
+    margin-bottom: 20px;
+
+}
+.mat{
+    margin-top: 20px;
+}
+.mar_50{
+width: 55%;
+}
+.mal{
+    margin-left: 35%;
+}
+.title-txt{
+    color: rgb(53, 60, 64);
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: 600;    
+  
+}
+.good{
+    background: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+.good-title{
+font-size: 20px;
+font-weight: 600;
+
+}
+.credit-gen{
+border-radius: 77px;
+background: rgb(249, 249, 249);
+padding: 4px 8px;
+}
+
+.credit{
+border-radius: 20px;
+background: rgb(110, 244, 157);
+padding: 4px 8px;
+}
+.credit-icon{
+margin-left: 100px;
+margin-right: 10px;
+}
+.no-money{
+    color: rgb(53, 60, 64);   
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+    background: rgb(255, 240, 240);
+    padding: 4px 8px;
+
+}
+.buy-one{
+    border-radius: 77px;
+    background: rgb(255, 222, 222);
+    margin-right: 2%;
+    color: red;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+.cart{
+border-radius: 77px;
+background: rgb(255, 0, 0);
+color: white;
+padding: 4px 8px;
+font-size: 14px;
+}
+.nav-txt{
+    color: rgb(53, 60, 64);
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-weight: 400;
+  
+}
+
+.shop-txt{
+color: rgb(53, 60, 64);
+font-size: 15px;
+font-weight: 600;
+
+}
+.shop-item-txt{
+    color: rgb(53, 60, 64);
+    
+    font-size: 14px;
+    font-weight: 400;
+}
+
 
 .img-select{
     
-    width: 64px; 
-    margin-right: 5%;
-    gap: 5%;
+    width: 15%; 
+    margin-right: 4%;
+    gap: 3%;
 }
 
 .img-comment{
@@ -23,10 +126,20 @@ background: rgb(204, 204, 204);
     width: 83px;
     
 }
-
+.img-general{
+   
+position: relative;
+max-width: 414px; 
+}
+.img-h{
+position: absolute;
+right: 5%;
+width: 10%;
+}
 .item-card{
     width: 12rem;
 }
+
 .button-card{
     background-image: url(/img/Frame_39524.png);
     /* border: 5px solid #284351; */
