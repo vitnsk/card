@@ -18,6 +18,11 @@ background: rgb(204, 204, 204);
 .centered{
     text-align: center;
 }
+.centered-2{
+    text-align: center;
+    
+}  
+
 
 .mar{
     margin-right: 2%;
@@ -25,6 +30,14 @@ background: rgb(204, 204, 204);
 .mab{
     margin-bottom: 20px;
 
+}
+.mar-2{
+   
+ margin-right: 5%;
+}
+.mab_5{
+    margin-bottom: 5px;
+    margin-left: 5%;
 }
 .mat{
     margin-top: 20px;
@@ -35,14 +48,17 @@ width: 55%;
 .mal{
     margin-left: 35%;
 }
+.mal-5{
+    margin-left: 55%;
+}
 .title-txt{
     color: rgb(53, 60, 64);
-    /* font-family: Roboto; */
+    font-family: Roboto;
     font-size: 16px;
     font-weight: 600;    
   
 }
-.good{
+.white-block{
     background: white;
     border-radius: 30px;
     padding: 20px;
@@ -64,7 +80,7 @@ background: rgb(110, 244, 157);
 padding: 4px 8px;
 }
 .credit-icon{
-margin-left: 100px;
+margin-left: 50px;
 margin-right: 10px;
 }
 .no-money{
@@ -94,7 +110,7 @@ font-size: 14px;
 }
 .nav-txt{
     color: rgb(53, 60, 64);
-    /* font-family: Roboto; */
+    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
   
@@ -102,13 +118,13 @@ font-size: 14px;
 
 .shop-txt{
 color: rgb(53, 60, 64);
+font-family: Roboto;
 font-size: 15px;
 font-weight: 600;
 
 }
 .shop-item-txt{
-    color: rgb(53, 60, 64);
-    
+    color: rgb(53, 60, 64);    
     font-size: 14px;
     font-weight: 400;
 }
@@ -153,10 +169,123 @@ width: 10%;
     width: 327px;    
 
 }
+.img-comm{
+border-radius: 12px;
+background: rgb(246, 247, 248);
+height: 83px;
+width: 75%;
+}
+.comm-txt{
+color: rgb(100, 109, 116);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+
+}
+.comm-txt-1{
+color: rgb(128, 138, 147);
+font-family: Roboto;
+font-size: 10px;
+font-weight: 400;
+}
+ .comm-txt-2{
+color: rgb(149, 161, 172);
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+
+ }
+
 .star-5{
     width: 50%;
 }
 
 .star-txt{
     white-space: nowrap;
+}
+
+.phone-black{
+position: absolute;
+right: 1%;
+top: 112%;
+bottom: 0%;
+}
+.buy-txt{
+color: rgb(53, 60, 64);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 600;
+}
+.card-img-top{
+width: 256px;
+/* height: 256px; */
+}
+.price-1{
+    color: rgb(53, 60, 64);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+       
+}
+
+
+
+.sale{
+color: rgb(255, 0, 0);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 900;
+
+}
+
+.price-2{
+color: rgb(53, 60, 64);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+}
+
+.card-title{
+color: rgb(53, 60, 64);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+
+}
+
+.card-text{
+color: rgb(53, 60, 64);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 300;
+}
+
+.like-g{
+margin-top: 6px;
+margin-right: 10px;
+}
+
+.go-right{
+    position: absolute;
+right: 1%;
+/* top: 2fr; */
+top: 150%;
+
+}
+
+.nav-var{
+border-radius: 77px;
+background: rgb(243, 243, 244);
+}
+
+.nav-a{
+border-radius: 77px;
+background: rgb(53, 60, 64);
+
+padding: 5px 10px 7px 15px;
+text-decoration: none;
+}
+
+.price-num{
+    white-space:nowrap;
 }
