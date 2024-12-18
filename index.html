@@ -162,9 +162,9 @@
                                         <span class="fw-bold good-title">ХХХ ХХХ.ХХ Х </span>
                                         <span class="text-decoration-line-through">ХХХ ХХХ ХХХ.ХХ </span>
                                     </div>
-                                    <div class="credit-gen mab">
+                                    <div class="d-flex flex-raw credit-gen mab">
                                         <span class="cr">Рассрочка </span>
-                                        <span class="fw-bold credit">от ХХХ ХХХ.ХХ х/мес</span>
+                                        <span class="fw-bold credit price-num">от ХХХ ХХХ.ХХ х/мес</span>
                                         <span class="credit-icon"><img src="icon\arrow.right.png"> </span>
                                     </div>
 
@@ -229,8 +229,10 @@
 
                                 <div class="fw-bold ">Отзывы, фото и видео товара</div>
                                 <div class="mal-5">
-                                    <span class="fw-light">Все отзывы</span>
-                                    <span><img src="icon\arrow.up.right.png" class="arrow-up-right" alt=""></span>
+                                    <div class="d-flex flex-row">
+                                    <span class="fw-light price-num">Все отзывы</span>
+                                    <span><img src="icon\arrow.up.right.png" class="arrow-up-right p-2" alt=""></span>
+                                    </div>
                                 </div>
                             </div>
                             <div class="white-block">
@@ -463,11 +465,9 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="go-right"><img src="icon\ellips_right.png" class="img-fluid " alt=""></div>
 
             </div>
-            <div class="go-right"><img src="icon\ellips_right.png" class="img-fluid " alt=""></div>
-
 
         </div>
         <div class="mat">
@@ -537,6 +537,7 @@
                 <div class="raw mab">
                     <div class="d-flex flex-row ">
                         <div class="col-7 pt-2 centered nav-var">
+                            <div class="d-flex flex-row price-num">
                             <span class="nav-a mar">
                                 <a class="text-decoration-none text-white" href="#">Все</a>
                             </span>
@@ -547,8 +548,9 @@
                                 <a class="text-decoration-none text-black" href="#">Оригинальные аналоги</a>
                             </span>
                             <span class="nav-i mar">
-                                <a class="text-decoration-none text-black" href="#">Неоригинальные аналогия</a>
+                                <a class="text-decoration-none text-black" href="#">Неоригинальные аналоги</a>
                             </span>
+                        </div>
                         </div>
                         <div class="col-4"></div>
                         <div class="col-1">
@@ -562,7 +564,7 @@
                             <div>Номер</div>
                         </div>
                         <div class="col-1 ">
-                            <div>
+                            <div class="d-flex flex-row">
                                 <span><img src="icon\arrow-3.png" class="img-fluid " alt=""></span>
                                 <span>Сроки</span>
                             </div>
@@ -931,7 +933,7 @@
                         <div class="container ">
 
                             <div class="raw mab">
-                                <div class="d-flex flex-row ">
+                                <div class="d-flex flex-row price-num">
                                     <div class="col-8 pt-2 centered nav-var">
                                         <span class="nav-a mar">
                                             <a class="text-decoration-none text-white" href="#">Все отзывы</a>
@@ -1001,9 +1003,9 @@
                                     </div>
                                 </div>
 
-                                <div class="raw mat">
+                                <div class="raw mat mab">
                                     <div class="d-flex flex-raw">
-                                        <div class="title-txt mar">Помог этот отзыв?</div>
+                                        <div class="title-txt mar price-num">Помог этот отзыв?</div>
                                         <div class="no-money mar">Да</div>
                                         <div class="no-money mar-52">Нет</div>
                                         <div class="no-money star-txt">
@@ -1069,9 +1071,9 @@
                                     </div>
                                 </div>
 
-                                <div class="raw mat">
+                                <div class="raw mat mab">
                                     <div class="d-flex flex-raw">
-                                        <div class="title-txt mar">Помог этот отзыв?</div>
+                                        <div class="title-txt mar price-num">Помог этот отзыв?</div>
                                         <div class="no-money mar">Да</div>
                                         <div class="no-money mar-52">Нет</div>
                                         <div class="no-money star-txt">
@@ -1206,8 +1208,10 @@
                 <div class="d-flex flex-row mat mab">
                     <div class="buy-txt price-num mab">ЛЮБАЯ ПОДБОРКА НА ВАШЕ УСМОТРЕНИЕ</div>
                     <div class="mal-45">
-                        <span class="comm-txt-3">СМОТРЕТЬ ВСЕ</span>
-                        <span><img src="img\arrow.up.right.png" class="arrow-up-right p-2" alt=""></span>
+                        <div class="d-flex flex-row">
+                            <span class="comm-txt-3 price-num p-1">СМОТРЕТЬ ВСЕ</span>
+                            <span><img src="icon\vect-up.png" class="vect-img p-1" alt=""></span>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -1355,9 +1359,9 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="go-right"><img src="icon\ellips_right.png" class="img-fluid " alt=""></div>
             </div>
-            <div class="go-right-2"><img src="icon\ellips_right.png" class="img-fluid " alt=""></div>
+
         </div>
 
         <div class="wrap-footer mat-80">
@@ -1425,7 +1429,7 @@
                             <ul class="list-unstyled li-group">
                                 <li class="futer-title-txt mab-30">Связаться с нами</li>
                                 <li class="futer-txt mab-15"> <img src="icon\Email.png" class="p-2" alt=""><a
-                                        class="text-decoration-none text-body" href="#">support@exzap.uz/a></li>
+                                        class="text-decoration-none text-body" href="#">support@exzap.uz</a></li>
                                 <li class="futer-txt mab-15"><img src="icon\Line Rounded_Phone.png" class="p-2"
                                         alt=""><a class="text-decoration-none text-body" href="#">(999) 888 - 6655</a>
                                 </li>
@@ -1446,7 +1450,7 @@
 
                         <div class="col-2 mal-6">Copyright © 2024 EXZAP</div>
                         <div class="col-3 mar"></div>
-                        <div class="col-7"><span>Все права защищены</span>
+                        <div class="col-7 price-num"><span>Все права защищены</span>
                             <span> | </span>
                             <span><a href="#">Условия использования</a></span>
                             <span> | </span>

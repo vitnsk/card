@@ -8,54 +8,7 @@ background-image: url(/img/31903913_hj3.png);
 font-family: Roboto, Arial, Helvetica, sans-serif;
 src: url(/fonts/Roboto-Regular.ttf) format("truetype");   
 } 
-.centered{
-    text-align: center;
-}
 
-.mar{
-margin-right: 2%;
-}
-.mab{
-margin-bottom: 20px;
-
-}
-.mab-15{
-margin-bottom: 15px;
-}.mab-30{
-margin-bottom: 30px;
-}
-
-.mar-2{   
- margin-right: 5%;
-}
-.mab_5{
-margin-bottom: 5px;
-margin-left: 5%;
-}
-.mar-52{
-margin-right: 52%;
-}
-.mat{
-margin-top: 20px;
-}
-.mat-80{
-margin-top: 80px;
-}
-.mar_50{
-width: 55%;
-}
-.mal{
-margin-left: 35%;
-}
-.mal-6{
-margin-left: 6%;
-}
-.mal-45{
-margin-left: 50%;
-}
-.mal-5{
-margin-left: 55%;
-}
 .title-txt{
 color: rgb(53, 60, 64);
 font-size: 16px;
@@ -279,7 +232,54 @@ font-size: 24px;
 font-weight: 70%;
 
 }
+.centered{
+    text-align: center;
+}
 
+.mar{
+margin-right: 2%;
+}
+.mab{
+margin-bottom: 20px;
+
+}
+.mab-15{
+margin-bottom: 15px;
+}.mab-30{
+margin-bottom: 30px;
+}
+
+.mar-2{   
+ margin-right: 5%;
+}
+.mab_5{
+margin-bottom: 5px;
+margin-left: 5%;
+}
+.mar-52{
+margin-right: 52%;
+}
+.mat{
+margin-top: 20px;
+}
+.mat-80{
+margin-top: 80px;
+}
+.mar_50{
+width: 55%;
+}
+.mal{
+margin-left: 35%;
+}
+.mal-6{
+margin-left: 6%;
+}
+.mal-45{
+margin-left: 49%;
+}
+.mal-5{
+margin-left: 55%;
+}
 .like-g{
 margin-top: 6px;
 margin-right: 10px;
@@ -287,14 +287,8 @@ margin-right: 10px;
 
 .go-right{
 position: absolute;
-right: 1%;
-top: 150%;
-}
+left:92%;
 
-.go-right-2{
-position: absolute;
-right: 1%;   
-top: 605%;    
 }
 
 .nav-var{
@@ -317,6 +311,10 @@ width: 100px;
 }
 .star-t{
 padding-top: 1.6%;
+}
+.vect-img{
+height: 32px;
+width: 32px; 
 }
 .loc-img{
 height: 40px;
